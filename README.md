@@ -8,6 +8,7 @@ Cada sessão precisa ter um horário, um status, e não pode haver dois agendame
 O sistema também deve impedir agendamentos fora do horário comercial (08:00 às 18:00)."
 
 🧱 Entidades principais:
+
 Pessoa (abstrata)
 Nome, e-mail, telefone, CPF
 
