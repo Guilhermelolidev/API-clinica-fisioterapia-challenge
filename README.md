@@ -30,17 +30,17 @@ Fisioterapeuta, paciente, data e hora, status (Agendado, Concluído, Cancelado),
 - Quando um agendamento for marcado como "Concluído", ele se torna imutável.
 
 📦 Recursos da API:
-GET /pacientes – Listar todos os pacientes
-POST /fisioterapeutas – Cadastrar um novo profissional
-POST /agendamentos – Criar sessão
-PUT /agendamentos/{id}/cancelar – Cancelar agendamento
-PUT /agendamentos/{id}/concluir – Concluir sessão
+- GET /pacientes – Listar todos os pacientes
+- POST /fisioterapeutas – Cadastrar um novo profissional
+- POST /agendamentos – Criar sessão
+- PUT /agendamentos/{id}/cancelar – Cancelar agendamento
+- PUT /agendamentos/{id}/concluir – Concluir sessão
 
 ✅ Tecnologias:
-Spring Boot (web, JPA)
-PostgreSQL
-DTOs e mapeamento com ModelMapper ou manual
-Validações com Bean Validation (@NotNull, @CPF, @Future, etc)
-Tratamento global de exceções (@ControllerAdvice)
-Camadas: controller, service, repository, domain
-Uso de interfaces nos serviços para aplicar inversão de dependência (SOLID)
+- Spring Boot (web, JPA)
+- PostgreSQL
+- DTOs e mapeamento com ModelMapper ou manual
+- Validações com Bean Validation (@NotNull, @CPF, @Future, etc)
+- Tratamento global de exceções (@ControllerAdvice)
+- Camadas: controller, service, repository, domain
+- Uso de interfaces nos serviços para aplicar inversão de dependência (SOLID)
