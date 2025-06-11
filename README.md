@@ -9,16 +9,16 @@ O sistema também deve impedir agendamentos fora do horário comercial (08:00 à
 
 🧱 Entidades principais:
 
-Pessoa (abstrata)
+- Pessoa (abstrata)
 Nome, e-mail, telefone, CPF
 
-Fisioterapeuta (herda de Pessoa)
+- Fisioterapeuta (herda de Pessoa)
 Registro profissional (CRF), especialização
 
-Paciente (herda de Pessoa)
+- Paciente (herda de Pessoa)
 Data de nascimento, plano de saúde
 
-Agendamento
+- Agendamento
 Fisioterapeuta, paciente, data e hora, status (Agendado, Concluído, Cancelado), observações
 
 📜 Regras de negócio:
